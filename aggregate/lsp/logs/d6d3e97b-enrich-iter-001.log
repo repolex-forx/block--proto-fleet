@@ -1,0 +1,46 @@
+[2026-10-01T08:47:18Z] === ENRICH ITERATION 1 START | repo=block/proto-fleet sha=d6d3e97b ===
+[2026-10-01T08:47:18Z] [iter=1] PHASE START: enrich repo=block/proto-fleet sha=d6d3e97b runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d6d3e97b-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d6d3e97b24c27e4fe9cee942992dabb851973a13.nq.gz
+[2026-10-01T08:47:18Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-01T08:48:17Z] [iter=1] AST store loaded triples=5675430 load_secs=56 mem_mb=1105 MB
+[2026-10-01T08:48:17Z] [iter=1] Step 2: Finding LSP targets mem_mb=1105 MB
+[2026-10-01T08:48:24Z] [iter=1] LSP targets found call_sites=46552 imports=1248 extends=6 implements=0 secs=7
+[2026-10-01T08:48:26Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1105 MB
+[2026-10-01T08:49:02Z] [iter=1] Position index built positions=357462 nodes_with_types=431584 secs=36 mem_mb=1105 MB
+[2026-10-01T08:49:02Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1105 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T08:49:02Z] [iter=1] Resolving target type target_type=call_site count=46552
+[2026-10-01T08:49:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=0 resolved=0 errors=46552 current=client/src/protoFleet/api/useFileUpload.test.ts
+[2026-10-01T08:52:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=1 resolved=29 errors=46643 current=client/src/protoFleet/features/fleetManagement/components/MinerActionsMenu/useMinerActions.test.tsx
+[2026-10-01T09:35:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.8 files_done=2 resolved=225 errors=47694 current=client/src/shared/components/Dialog/DialogIcon.test.tsx
+[2026-10-01T09:35:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.5 files_done=3 resolved=225 errors=47711 current=client/src/protoFleet/features/activity/pages/ActivityPage.test.tsx
+[2026-10-01T09:42:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.2 files_done=4 resolved=257 errors=47879 current=client/src/protoFleet/api/useReleaseChannels.test.tsx
+[2026-10-01T10:44:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=117.6 files_done=5 resolved=470 errors=49422 current=client/src/protoFleet/features/sites/pages/SiteDetailPage.test.tsx
+[2026-10-01T10:48:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=121.1 files_done=6 resolved=479 errors=49506 current=client/src/protoFleet/features/energy/CurtailmentHistory.test.tsx
+[2026-10-01T10:56:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.6 files_done=7 resolved=480 errors=49709 current=client/src/protoFleet/features/settings/components/AddTeamMemberModal.test.tsx
+[2026-10-01T11:02:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=135.3 files_done=8 resolved=480 errors=49847 current=client/src/protoFleet/features/settings/components/ReleaseChannels/ActiveUpdatesMonitor.test.tsx
+[2026-10-01T11:17:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.4 files_done=9 resolved=506 errors=50211 current=client/src/shared/components/List/Filters/NestedDropdownFilter.test.tsx
+[2026-10-01T11:21:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=154.6 files_done=10 resolved=516 errors=50310 current=client/src/protoFleet/features/sites/inferTimezone.test.ts
+[2026-10-01T11:22:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.7 files_done=11 resolved=536 errors=50337 current=client/src/protoFleet/features/alerts/api/alertsApi.test.ts
+[2026-10-01T11:23:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=156.3 files_done=12 resolved=539 errors=50354 current=client/src/protoOS/api/hooks/usePassword.test.ts
+[2026-10-01T11:25:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.5 files_done=13 resolved=549 errors=50408 current=client/src/protoOS/store/hooks/useAuthRetry.test.ts
+[2026-10-01T11:28:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=161.0 files_done=14 resolved=565 errors=50468 current=client/src/protoFleet/components/PageHeader/ActiveAlertsPill.test.tsx
+[2026-10-01T11:31:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.4 files_done=15 resolved=571 errors=50553 current=client/e2eTests/protoFleet/pages/miners.ts
+[2026-10-01T11:39:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=172.2 files_done=16 resolved=626 errors=50745 current=client/src/shared/components/List/Filters/TextareaListModal.test.tsx
+[2026-10-01T11:41:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=173.8 files_done=17 resolved=629 errors=50785 current=client/src/protoOS/api/hooks/useRefresh.ts
+[2026-10-01T11:42:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=174.8 files_done=19 resolved=635 errors=50810 current=client/src/protoFleet/features/settings/components/Schedules/RackSelectionModal.stories.tsx
+[2026-10-01T11:42:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=175.4 files_done=20 resolved=635 errors=50824 current=client/src/protoFleet/api/useCurtailmentApi.test.ts
+[2026-10-01T12:12:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=205.7 files_done=21 resolved=753 errors=51570 current=client/src/protoFleet/features/fleetManagement/views/viewSummary.test.ts
+[2026-10-01T12:16:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=209.2 files_done=22 resolved=788 errors=51656 current=client/src/protoOS/components/NoPoolsCallout/utility.test.ts
+[2026-10-01T12:17:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=209.9 files_done=24 resolved=799 errors=51674 current=client/src/protoFleet/api/generated/minercommand/v1/command_pb.ts
+[2026-10-01T12:18:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=211.7 files_done=25 resolved=799 errors=51718 current=client/src/protoFleet/features/buildings/components/ManageBuildingModal/ManageBuildingModal.test.tsx
+[2026-10-01T12:22:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=214.8 files_done=26 resolved=799 errors=51795 current=client/src/protoFleet/features/maintenance/components/TicketInventory/ImportCsvModal.test.tsx
+[2026-10-01T12:23:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=216.6 files_done=27 resolved=802 errors=51840 current=client/src/protoFleet/features/fleetManagement/components/MinerActionsMenu/BulkWorkerNameModal.tsx
+[2026-10-01T12:29:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=222.5 files_done=28 resolved=865 errors=51985 current=client/src/protoFleet/features/fleetManagement/utils/parseScannedIdentifier.test.ts
+[2026-10-01T12:31:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=223.9 files_done=29 resolved=881 errors=52018 current=client/src/protoFleet/features/sites/components/SiteSettingsModal/SiteSettingsModal.test.tsx
+[2026-10-01T12:31:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=224.6 files_done=30 resolved=881 errors=52036 current=client/src/protoFleet/features/settings/components/ReleaseChannels/ReleaseChannelManageView.general.test.tsx
+[2026-10-01T12:34:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=227.3 files_done=31 resolved=888 errors=52102 current=client/src/protoFleet/features/settings/components/Curtailment/CurtailmentSettingsPage.tsx
+[2026-10-01T12:44:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=236.7 files_done=32 resolved=1029 errors=52333 current=client/src/protoFleet/api/sites.ts
+[2026-10-01T12:45:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=238.6 files_done=33 resolved=1043 errors=52378 current=client/src/shared/utils/datetime.ts
+[2026-10-01T12:47:30Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=35 new_files_this_iter=35 mem_mb=1141 MB
+[2026-10-01T12:47:30Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/d6d3e97b24c27e4fe9cee942992dabb851973a13.nq.gz triples=37700
+[2026-10-01T12:47:30Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-10-01T12:47:30Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14411 elapsed_min=240.2 files_completed=35
