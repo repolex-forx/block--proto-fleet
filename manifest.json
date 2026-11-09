@@ -2521,6 +2521,11 @@
         "blob/c060cab721431259fd8e44b7681e0d4700c5a268.nq.gz",
         "blob/3ce73922451fa06b9fa2b387b67bc876fecd94c2.nq.gz",
         "blob/0381d7b64a18fb29b9d8f83704c61ca63f3c5763.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/cf88e5c31d3bcce18f55491fd3afaafbe3af3b9f/chunk-001.nq.gz",
+        "aggregate/ast/cf88e5c31d3bcce18f55491fd3afaafbe3af3b9f/chunk-002.nq.gz",
+        "aggregate/ast/cf88e5c31d3bcce18f55491fd3afaafbe3af3b9f/chunk-003.nq.gz"
       ]
     }
   ],

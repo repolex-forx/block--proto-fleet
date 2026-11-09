@@ -1700,7 +1700,7 @@
     {
       "@id": "https://repolex.ai/r/block/proto-fleet/commit/cf88e5c31d3bcce18f55491fd3afaafbe3af3b9f",
       "git:hexsha": "cf88e5c31d3bcce18f55491fd3afaafbe3af3b9f",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "v0.6.0-rc.1"
     },
     {
