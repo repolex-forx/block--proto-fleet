@@ -1,0 +1,16 @@
+{
+  "org": "block",
+  "repo": "proto-fleet",
+  "versions": [
+    {
+      "commit": "cf88e5c31d3bcce18f55491fd3afaafbe3af3b9f",
+      "tag": "nightly-20261017-cf88e5c31d3b",
+      "parsed_at": "2026-11-09T18:53:57.691075+00:00"
+    },
+    {
+      "commit": "d6d3e97b24c27e4fe9cee942992dabb851973a13",
+      "tag": "main",
+      "parsed_at": "2026-10-01T08:56:08.460274+00:00"
+    }
+  ]
+}
